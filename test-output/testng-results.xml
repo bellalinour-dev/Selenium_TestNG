@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-28T22:00:02 CET" name="Suite" finished-at="2026-01-28T22:00:09 CET" duration-ms="6458">
+    <groups>
+    </groups>
+    <test started-at="2026-01-28T22:00:02 CET" name="Test" finished-at="2026-01-28T22:00:09 CET" duration-ms="6458">
+      <class name="com.todo.tests.AddTodosTest">
+        <test-method is-config="true" signature="setupTest(java.lang.String)[pri:0, instance:com.todo.tests.AddTodosTest@765d7657]" started-at="2026-01-28T22:00:02 CET" name="setupTest" finished-at="2026-01-28T22:00:08 CET" duration-ms="5503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="iAddTodo()[pri:0, instance:com.todo.tests.AddTodosTest@765d7657]" started-at="2026-01-28T22:00:08 CET" name="iAddTodo" finished-at="2026-01-28T22:00:08 CET" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iAddTodo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.todo.tests.AddTodosTest@765d7657]" started-at="2026-01-28T22:00:08 CET" name="tearDown" finished-at="2026-01-28T22:00:09 CET" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.todo.tests.AddTodosTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
